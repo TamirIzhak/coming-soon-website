@@ -13,41 +13,50 @@ body{
   top:0;
   right:0;
 }
+
 h1{
   font-size: 3.3em;
   letter-spacing: 0.3em;
   margin:0 auto;
 }
+
 .left-wall{
   position: absolute;
   top:0;
   left:0;
   z-index:-1;
 }
+
 div{
   margin:0;
 }
+
 .top-container{
   position:absolute;
   top:10%;
   left:20%;
 }
+
 .middle-container{
   position:absolute;
-  top:25%;
+  top:30%;
   left:20%;
   max-width: 50%;
 }
+
 .bottom-container{
+  position: relative;
   position:absolute;
-  top:65%;
+  top:67%;
   left:20%;
 }
+
 .h1-1{
-  color:red;
+  color:red;/* NOTE: fall back color */
   color: hsl(0, 36%, 70%);
   font-weight: 300;
 }
+
 .h1-2{
   line-height: 1.2;
   font-weight: 600;
@@ -56,15 +65,62 @@ div{
 .hero-img{
   width: auto;
 }
+
 .bg-img{
   width:100%;
   height: auto;
   max-width: 100%;
 }
+
 p{
   font-size: 16px;
-  color:red;
+  color:red;/* NOTE: fall back color */
   color: hsl(0, 36%, 70%);
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+.btn {
+  position: relative;
+  z-index: 2;
+  box-shadow: 100px 20px;
+  margin-left: -36px;
+  background:red;
+  background: hsl(0, 80%, 86%);
+  background-image: -webkit-linear-gradient(top, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  background-image: -moz-linear-gradient(top, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  background-image: -ms-linear-gradient(top, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  background-image: -o-linear-gradient(top, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 9px 30px 8px 32px;
+  border: red;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background:red;
+  background:hsl(0, 93%, 68%);
+  background-image: -webkit-linear-gradient(top, hsl(0, 0%, 100%),hsl(0, 36%, 70%));
+  background-image: -moz-linear-gradient(top, hsl(0, 0%, 100%), hsl(0, 36%, 70%));
+  background-image: -ms-linear-gradient(top, hsl(0, 0%, 100%), hsl(0, 36%, 70%));
+  background-image: -o-linear-gradient(top, hsl(0, 0%, 100%),hsl(0, 36%, 70%));
+  background-image: linear-gradient(135deg, hsl(0, 0%, 100%),hsl(0, 36%, 70%));
+  text-decoration: none;
+}
+
+.email-input-box{
+  border-width: thin;
+  border-style: solid;
+  border-radius: 28px;
+  border-color: red;
+  border-color: hsl(0, 36%, 70%);
+  color: red;
+  color:hsl(0, 36%, 70%);
+  padding: 10px 160px 10px 32px;
 }
