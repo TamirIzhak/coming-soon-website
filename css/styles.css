@@ -83,8 +83,8 @@ p{
 .btn {
   position: relative;
   z-index: 2;
-  box-shadow: 100px 20px;
-  margin-left: -36px;
+  box-shadow: 4px 15px 2em hsl(0, 80%, 86%);
+  margin-left: -40px;
   background:red;
   background: hsl(0, 80%, 86%);
   background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
@@ -94,7 +94,8 @@ p{
   font-family: Arial;
   color: #ffffff;
   font-size: 16px;
-  padding: 9px 30px 9px 32px;
+  padding: 12px 35px 12px 35px;
+
   border: red;
   text-decoration: none;
 }
@@ -105,8 +106,12 @@ p{
   background-image: linear-gradient(135deg, hsl(0, 0%, 100%),hsl(0, 36%, 70%));
   text-decoration: none;
 }
-
+.icon-arrow{
+  padding: 0;
+  margin:0 auto;
+}
 .email-input-box{
+  margin:0 auto;
   border-width: thin;
   border-style: solid;
   border-radius: 28px;
@@ -114,5 +119,5 @@ p{
   border-color: hsl(0, 36%, 70%);
   color: red;
   color:hsl(0, 36%, 70%);
-  padding: 10px 160px 10px 32px;
+  padding: 18px 160px 12px 32px;
 }
