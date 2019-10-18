@@ -47,8 +47,9 @@ div{
 .bottom-container{
   position: relative;
   position:absolute;
-  top:67%;
+  top:70%;
   left:20%;
+  width: 100%;
 }
 
 .h1-1{
@@ -81,8 +82,6 @@ p{
 }
 
 .btn {
-  position: relative;
-  z-index: 2;
   box-shadow: 4px 15px 2em hsl(0, 80%, 86%);
   margin-left: -40px;
   background:red;
@@ -94,10 +93,8 @@ p{
   font-family: Arial;
   color: #ffffff;
   font-size: 16px;
-  padding: 12px 35px 12px 35px;
-
   border: red;
-  text-decoration: none;
+  padding: 1em 3em;
 }
 
 .btn:hover {
@@ -119,5 +116,20 @@ p{
   border-color: hsl(0, 36%, 70%);
   color: red;
   color:hsl(0, 36%, 70%);
-  padding: 18px 160px 12px 32px;
+  padding: 0.5em 13em 0.5em 1em;
+}
+input:invalid{
+  border-width: medium;
+  border-color: red;
+  border-color: hsl(0, 93%, 68%);
+  visibility: visible;
+}
+.mail-form{
+  display: inline-flex;
+}
+
+.error-icon{
+    margin-left: -150px;
+    padding: 0;
+    visibility: hidden;
 }
