@@ -1,3 +1,3 @@
 # coming-soon-website
-Fonrtend Mentor HTML/CSS exercise
+Frontend Mentor HTML/CSS exercise
 https://tamirizhak.github.io/coming-soon-website/
